@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loja de Suplementos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Loja de Suplementos</h1>
+
+  <label for="categoria">Filtrar por categoria:</label>
+  <select id="categoria">
+    <option value="todas">Todas</option>
+    <option value="Proteína">Proteína</option>
+    <option value="Desempenho">Desempenho</option>
+    <option value="Saúde Geral">Saúde Geral</option>
+  </select>
+
+  <label for="busca">Buscar suplemento por nome:</label>
+  <input type="text" id="busca" placeholder="Digite um nome..." />
+
+  <ul id="lista-suplementos"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
