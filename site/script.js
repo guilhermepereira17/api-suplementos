@@ -1,4 +1,4 @@
-const urlBase = 'http://localhost:3000/suplementos';
+const urlBase = 'https://api-suplementos.onrender.com/suplementos';
 const lista = document.getElementById('lista-suplementos');
 const filtro = document.getElementById('categoria');
 const campoBusca = document.getElementById('busca');
